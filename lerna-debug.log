@@ -1,0 +1,8 @@
+40 error Error: Command failed with exit code 128: git tag v0.0.1 -m v0.0.1
+40 error fatal: tag 'v0.0.1' already exists
+40 error     at makeError (/Users/jchavezpalma/Development/repos/lerna/getting-started-example/node_modules/execa/lib/error.js:60:11)
+40 error     at handlePromise (/Users/jchavezpalma/Development/repos/lerna/getting-started-example/node_modules/execa/index.js:118:26)
+40 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+40 error     at async VersionCommand.gitCommitAndTagVersion (/Users/jchavezpalma/Development/repos/lerna/getting-started-example/node_modules/lerna/dist/index.js:8388:9)
+40 error     at async VersionCommand.commitAndTagUpdates (/Users/jchavezpalma/Development/repos/lerna/getting-started-example/node_modules/lerna/dist/index.js:8353:18)
+40 error     at async Promise.all (index 0)
